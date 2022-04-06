@@ -1,0 +1,16 @@
+main {
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+main h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+address a {
+  text-decoration: none;
+  color: rgb(163, 85, 163);
+  font-weight: 700;
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  min-height: 100vh;
+  background-color: rgb(130, 226, 194);
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  flex-grow: 1;
+}
+
+main h1 {
+  font-family: Raleway, sans-serif;
+}
+
+body > header {
+  padding: 2rem 0;
+}
+
+body > header ul {
+  display: flex;
+  justify-content: center;
+}
+
+body > header li {
+  margin-right: 1.5rem;
+}
+
+body > header a {
+  text-decoration: none;
+  color: rgb(163, 85, 163);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+body > footer {
+  display: flex;
+  justify-content: center;
+  justify-items: end;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+}
